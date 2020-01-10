@@ -1,0 +1,10 @@
+commands
+
+# docker-compose
+# docker images ( images info)
+# docker info | grep -i root ( dir info )
+# sudo du -sh /var/lib/docker ( volume info)
+
+
+
+# systemctl staus jenkins

@@ -1,0 +1,92 @@
+git init
+(master)
+
+create a file in bit master folder 
+vi text.py
+
+git status
+
+git add .
+
+git status
+
+git commit -m "commit status"
+
+git status
+
+git log
+
+
+
+Comparing Diff
+ # git hist ( sh history)
+
+# git diff 4442ea0 HEAD
+
+Branching and Merge
+
+# git branch
+# git checkout -b updates ( updates is new branch)
+
+bitween add files and commit
+
+
+# git diff updates master
+
+
+Switch from one branch to another
+
+git checkout command
+
+# git checkout master
+
+Megring
+
+# git merge updates
+
+Add file in new branch and updating file in master branch
+
+# 
+
+Delete branch
+
+# git branch -d updates(branch name) -d delete branch
+
+Tag
+
+# git tag -a Vi.0 -m "xxx" ( new tag name)
+# git tag --list
+
+
+Delete Tag 
+ 
+git tag -d tag name*
+
+
+Savinf Work 
+
+
+
+
+
+login into github command and create repository
+
+in that hhtps link
+
+git remote add orgin https://--
+
+git remote -v
+(fetch & push)
+
+git push -u origin master
+
+Username for 'https://github.com': suri1060
+Password for 'https://suri1060@github.com':
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 525 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/suri1060/dev.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.

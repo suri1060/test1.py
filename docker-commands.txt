@@ -7,4 +7,6 @@ commands
 
 
 
+
+doccker changes 
 # systemctl staus jenkins
